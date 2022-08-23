@@ -7,6 +7,46 @@
   </head>
   <body>
     <h1>Movie Tickets</h1>
+    <form id="inputForm">
+      <label for="movie-input"> Select a title:<label><br>
+        <select id="movie-input">
+          <option value="0">Select</option>
+          <option value="1">Shrek</option>
+          <option value="2">Titanic</option>
+          <option value="3">Forest Gump</option>
+        </select><br><br>
+
+        <p>Select Time: </p>
+        <label for="timeOfTheDay-input">
+          <input type="radio" name="timeOfTheDay" value="1">
+          Morning
+        </label><br>
+
+        <label for="timeOfTheDay-input">
+          <input type="radio" name="timeOfTheDay" value="2">
+          Noon
+        </label><br>
+
+        <label for="timeOfTheDay-input">
+          <input type="radio" name="timeOfTheDay" value="3">
+          Evening
+        </label><br><br>
+
+        <label for="userAge-input">How old are you?</label><br>
+        <select id="movie-input">
+          <option value="0">Select an age group</option>
+          <option value="3">0-18</option>
+          <option value="2">19-59</option>
+          <option value="1">60+</option>
+        </select><br><br>
+
+        <button type="submit">Submit!</button>
+    </form>
     
+    <div class="hidden" id="results">
+      <h3>Your ticket price:</h3>
+    </div>
+
   </body>
 </html>
+

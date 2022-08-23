@@ -15,5 +15,14 @@ function Input (movie, timeOfTheDay, userAge) {
 }
 
 Input.prototype.calculate = function() {
-   return this.movie + this.timeOfTheDay + this.userAge;
+  return this.movie + this.timeOfTheDay + this.userAge;
 }
+
+// User Interface Logic
+/* let ticket = new Ticket();
+let input = new Input(); */
+
+if (input.calculate() > 6 ) {
+ console.log("It works!");
+}
+
